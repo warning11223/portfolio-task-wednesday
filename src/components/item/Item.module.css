@@ -1,0 +1,32 @@
+.item {
+    border: 1px solid black;
+}
+.img {
+    width: 250px;
+    height: 250px;
+    background-color: lightgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button {
+    cursor: pointer;
+    background-color: gray;
+    padding: 10px 30px;
+}
+.desc {
+    margin: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    max-width: 200px;
+    text-align: center;
+}
+.name {
+    background-color: gray;
+    margin-bottom: 5px;
+}
+.text {
+    background-color: gray;
+}

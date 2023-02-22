@@ -1,0 +1,58 @@
+.skills {
+    background-color: cadetblue;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.inner {
+    border: 1px solid black;
+}
+.title {
+    background-color: gray;
+}
+.innerTop {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.innerBottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+@media (max-width: 1200px) {
+    .inner {
+        border: none;
+    }
+    .innerBottom {
+        margin: 0 20px 0 20px;
+        gap: 20px;
+    }
+}
+@media (max-width: 800px) {
+    .innerBottom {
+        flex-wrap: wrap;
+    }
+}
+@media (max-width: 563px) {
+    .innerBottom {
+        justify-content: center;
+    }
+    .container {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .innerTop {
+        margin-bottom: 60px;
+    }
+}

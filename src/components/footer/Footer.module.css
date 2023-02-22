@@ -1,0 +1,56 @@
+.footer {
+    background-color: lightgrey;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+.wrapper {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footerTitle {
+    background-color: gray;
+    margin-bottom: 50px;
+}
+.list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 50px;
+    border: 1px solid black;
+    margin-bottom: 50px;
+}
+.listItem {
+    width: 50px;
+    height: 50px;
+    background-color: gray;
+}
+.rights {
+    background-color: gray;
+}
+
+
+
+
+
+
+@media (max-width: 1200px) {
+    .wrapper {
+        border: none;
+    }
+}
+@media (max-width: 400px) {
+    .container {
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+    .list {
+        gap: 20px;
+    }
+}
