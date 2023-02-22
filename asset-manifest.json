@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/portfolio-task-wednesday/static/css/main.4ed7dbb1.css",
+    "main.js": "/portfolio-task-wednesday/static/js/main.122537a9.js",
+    "static/js/787.d656a76a.chunk.js": "/portfolio-task-wednesday/static/js/787.d656a76a.chunk.js",
+    "index.html": "/portfolio-task-wednesday/index.html",
+    "main.4ed7dbb1.css.map": "/portfolio-task-wednesday/static/css/main.4ed7dbb1.css.map",
+    "main.122537a9.js.map": "/portfolio-task-wednesday/static/js/main.122537a9.js.map",
+    "787.d656a76a.chunk.js.map": "/portfolio-task-wednesday/static/js/787.d656a76a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4ed7dbb1.css",
+    "static/js/main.122537a9.js"
+  ]
+}
